@@ -2,6 +2,8 @@ debounce
 ===============================
 A simple separate utility for debounce which can also be found within the popular [Underscore](https://github.com/jashkenas/underscore) library.
 
+This currently does not have a simple module support which may be added in the future.
+
 ## How To
 Insert with script tag
 ```html
@@ -9,7 +11,7 @@ Insert with script tag
 ```
 Node
 ```js
-var debounce = require(components/utils/debounce/debounce.js);
+var debounce = require(/path/to/debounce/debounce.js);
 debounce();
 ```
 
