@@ -1,6 +1,6 @@
 debounce
 ===============================
-A simple separate utility for debounce which can also be found within the popular @underscore library.
+A simple separate utility for debounce which can also be found within the popular [Underscore](https://github.com/jashkenas/underscore) library.
 
 ## How To
 Insert with script tag
