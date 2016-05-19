@@ -1,0 +1,24 @@
+{
+  "name": "debounce",
+  "version": "0.1.0",
+  "description": "Simple dynamic timeout module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhershman1/debounce.git"
+  },
+  "keywords": [
+    "debounce",
+    "dynamic",
+    "timeouts"
+  ],
+  "author": "Dustin Hershman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhershman1/debounce/issues"
+  },
+  "homepage": "https://github.com/dhershman1/debounce#readme"
+}
