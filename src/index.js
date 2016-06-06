@@ -3,7 +3,9 @@
  * @author Dustin Hershman
  * @version 1.0.0
  */
-var debounce = function(func, wait, immediate) {
+'use strict';
+
+ var debounce = function(func, wait, immediate) {
     var timeout;
     return function() {
         var context = this,
@@ -18,3 +20,5 @@ var debounce = function(func, wait, immediate) {
         if (callNow) func.apply(context, args);
     };
 };
+
+module.exports = debounce;

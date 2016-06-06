@@ -1,17 +1,10 @@
-debounce
-===============================
+
 A simple separate utility for debounce which can also be found within the popular [Underscore](https://github.com/jashkenas/underscore) library.
 
-This currently does not have a simple module support which may be added in the future.
-
 ## How To
-Insert with script tag
-```html
-<script type="text/javascript" src="path/to/file/debounce.js"></script>
-```
 Node
 ```js
-var debounce = require(/path/to/debounce/debounce.js);
+var debounce = require('dynamic-timeouts');
 debounce();
 ```
 
@@ -22,8 +15,9 @@ debounce();
 
 ##Usage
 ```js
+var debounce = require('dynamic-timeouts');
 function testMe() {
     console.log('Test World');
 };
-$('#test').on('click', comp.utils.debounce(testMe, 300));
+$('#test').on('click', debounce(testMe, 300));
 ```

@@ -1,6 +1,6 @@
 {
-  "name": "debounce",
-  "version": "0.1.0",
+  "name": "dynamic-timeouts",
+  "version": "0.1.2",
   "description": "Simple dynamic timeout module",
   "main": "src/index.js",
   "scripts": {
@@ -10,15 +10,22 @@
     "type": "git",
     "url": "git+https://github.com/dhershman1/debounce.git"
   },
+  "bugs": {
+    "url": "https://github.com/dhershman1/debounce/issues"
+  },
   "keywords": [
     "debounce",
     "dynamic",
     "timeouts"
   ],
-  "author": "Dustin Hershman",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dhershman1/debounce/issues"
+  "author": {
+    "name": "Dustin Hershman"
   },
-  "homepage": "https://github.com/dhershman1/debounce#readme"
+  "license": "ISC",
+  "homepage": "https://github.com/dhershman1/debounce#readme",
+  "readme": "\r\nA simple separate utility for debounce which can also be found within the popular [Underscore](https://github.com/jashkenas/underscore) library.\r\n\r\n## How To\r\nNode\r\n```js\r\nvar debounce = require('dynamic-timeouts');\r\ndebounce();\r\n```\r\n\r\n##Arguments\r\n`func` - The function that you would like debounce to hold on\r\n`wait` - The Time (in ms) debounce should wait before execution\r\n`immediate` - should debounce fire the function the first time immediatly and then start waiting until activity stops then starts again\r\n\r\n##Usage\r\n```js\r\nvar debounce = require('dynamic-timeouts');\r\nfunction testMe() {\r\n    console.log('Test World');\r\n};\r\n$('#test').on('click', debounce(testMe, 300));\r\n```\r\n",
+  "readmeFilename": "README.md",
+  "_id": "dynamic-timeouts@0.1.1",
+  "_shasum": "0a31a97c167c1320e4d5fb7017c92a4fc73726c3",
+  "_from": "dynamic-timeouts@latest"
 }
