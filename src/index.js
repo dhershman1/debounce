@@ -7,6 +7,7 @@
 
  var debounce = function(func, wait, immediate) {
     var timeout;
+    var hereIsAConflict = "hahahaha";
     return function() {
         var context = this,
             args = arguments;
