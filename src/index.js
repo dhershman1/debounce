@@ -6,9 +6,7 @@
 'use strict';
 
  var debounce = function(func, wait, immediate) {
-     var timeout;
-
-     console.log('Thing');
+    var timeout;
 
     return function() {
         var context = this,
